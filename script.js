@@ -8,6 +8,6 @@ function updateDiv(id){
         text = "Hola";
     }
     else {
-        text = ""
+        text = "Hallo";
     }
 }
