@@ -1,3 +1,4 @@
 function updateDiv(id){
-    let 
+    let divElement = document.getElementById(id);
+    
 }
