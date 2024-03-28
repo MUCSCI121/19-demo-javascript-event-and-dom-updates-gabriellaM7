@@ -5,6 +5,6 @@ function updateDiv(id){
         divElement.innerText = text;
     }
     if (text== "Hi"){
-        text = 
+        text = ""
     }
 }
