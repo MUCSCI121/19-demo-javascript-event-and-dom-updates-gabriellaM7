@@ -2,7 +2,8 @@
 let text = "Hello";
 
 /*
-  
+  Callback function for when the user clicks on a div element.  The ID
+  of the div element is passed back so we know which one we are working with.
 */
 function updateDiv(id) {
   let divElement = document.getElementById(id);
