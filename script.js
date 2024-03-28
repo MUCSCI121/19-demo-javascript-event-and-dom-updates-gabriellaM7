@@ -6,7 +6,7 @@ let text = "Hello";
   of the div element is passed back so we know which one we are working with.
 */
 function updateDiv(id) {
-    // Grab the element from the DOM by the 
+    // Grab the element from the DOM by the id
   let divElement = document.getElementById(id);
   if (divElement.innerText == "") {
     divElement.innerText = text;
