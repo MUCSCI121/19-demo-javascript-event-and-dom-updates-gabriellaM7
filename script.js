@@ -1,3 +1,5 @@
+let nextTextToDisplay = "a";
+
 
 function divClicked(id){
   let divElement = document.getElementById(id);
