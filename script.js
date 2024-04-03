@@ -11,6 +11,7 @@ function divClicked(id){
     nextTextToDisplay = "o";
   }
   else if (nextTextToDisplay == "o"){
+    nextTextToDisplay = "x";
     
   }
   }else {
