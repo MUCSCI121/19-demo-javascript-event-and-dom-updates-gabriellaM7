@@ -28,5 +28,5 @@ function updateDiv(id) {
 
 function divClicked(id){
   let divElement = document.getElementById(id);
-  console.log(divElement);
+  console.log("Element: ", divElement);
 }
