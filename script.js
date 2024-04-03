@@ -1,15 +1,15 @@
-let nextTextToDisplay = "a";
+let nextTextToDisplay = "x";
 
 
 function divClicked(id){
   let divElement = document.getElementById(id);
   if (divElement.innerText == ""){
-  console.log("Element set to: ", divElement innerText);
+  console.log("Element set to: ", divElement.innerText);
   divElement.innertext = "x"; 
-  if (nextTextToDisplay == "a"){
-    nextTextToDisplay = "b";
+  if (nextTextToDisplay == "x"){
+    nextTextToDisplay = "o";
   }
-  else if (nextTextToDisplay == "b"){
+  else if (nextTextToDisplay == "o"){
     
   }
   }else {
