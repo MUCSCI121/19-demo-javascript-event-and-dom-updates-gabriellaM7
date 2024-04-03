@@ -22,3 +22,11 @@ function updateDiv(id) {
     text = "Hallo";
   }
 }
+
+
+
+
+function divClicked(id){
+  let divElement = document.getElementById(id);
+  console.log(divElement);
+}
